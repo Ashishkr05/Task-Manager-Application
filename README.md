@@ -20,41 +20,23 @@ This project is a simple task management application built using the MERN stack 
 
 ## Project Structure
 task-management-app/
-
 │
-
 ├── backend/
-
 │ ├── controllers/
-
 │ ├── models/
-
 │ ├── routes/
-
 │ └── app.js
-
 │
-
 └── frontend/
-
 ├── public/
-
 ├── src/
-
 │ ├── components/
-
 │ ├── pages/
-
 │ ├── App.js
-
 │ ├── index.js
-
 │ └── ...
-
 │
-
 └── ...
-
 
 ## API Documentation
 The backend provides the following API endpoints:
