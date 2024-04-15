@@ -4,10 +4,9 @@
 This project is a simple task management application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to create, update, and delete tasks, organized by status. The application provides a user-friendly interface and responsive design for both desktop and mobile devices.
 
 ## Technologies Used
-- **Frontend:** React.js, CSS/SASS
-- **Backend:** Node.js, Express.js, MongoDB
-- **Database:** MongoDB Atlas (Cloud-hosted MongoDB)
-- **Testing:** Jest, Supertest
+- **Frontend:** React.js, Angular, CSS/SASS, HTML
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
 
 ## Setup Instructions
 1. Clone the repository to your local machine: `git clone https://github.com/your-username/task-management-app.git`
@@ -20,3 +19,31 @@ This project is a simple task management application built using the MERN stack 
 6. Open your browser and navigate to `http://localhost:3000` to view the application.
 
 ## Project Structure
+task-management-app/
+│
+├── backend/
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ └── app.js
+│
+└── frontend/
+├── public/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── App.js
+│ ├── index.js
+│ └── ...
+│
+└── ...
+
+## API Documentation
+The backend provides the following API endpoints:
+
+- `GET /api/tasks`: Retrieve all tasks
+- `POST /api/tasks`: Create a new task
+- `PUT /api/tasks/:taskId`: Update an existing task
+- `DELETE /api/tasks/:taskId`: Delete a task
+
+> Don't forget to run `npm install` in both the **api** and **frontend** folders to install dependencies
