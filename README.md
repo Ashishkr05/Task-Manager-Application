@@ -20,23 +20,41 @@ This project is a simple task management application built using the MERN stack 
 
 ## Project Structure
 task-management-app/
+
 │
+
 ├── backend/
+
 │ ├── controllers/
+
 │ ├── models/
+
 │ ├── routes/
+
 │ └── app.js
+
 │
+
 └── frontend/
+
 ├── public/
+
 ├── src/
+
 │ ├── components/
+
 │ ├── pages/
+
 │ ├── App.js
+
 │ ├── index.js
+
 │ └── ...
+
 │
+
 └── ...
+
 
 ## API Documentation
 The backend provides the following API endpoints:
@@ -45,5 +63,9 @@ The backend provides the following API endpoints:
 - `POST /api/tasks`: Create a new task
 - `PUT /api/tasks/:taskId`: Update an existing task
 - `DELETE /api/tasks/:taskId`: Delete a task
+
+## Demo Video
+Watch the demo video on [loom](https://www.loom.com/share/484462b802014b25b0f4d23abb7ae056?sid=fc7da129-0d92-49e4-9aae-2c9d0386e5e9)! 
+
 
 > Don't forget to run `npm install` in both the **api** and **frontend** folders to install dependencies
