@@ -18,26 +18,6 @@ This project is a simple task management application built using the MERN stack 
 5. Start the frontend development server: `cd frontend && npm start`
 6. Open your browser and navigate to `http://localhost:3000` to view the application.
 
-## Project Structure
-task-management-app/
-│
-├── backend/
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ └── app.js
-│
-└── frontend/
-├── public/
-├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── App.js
-│ ├── index.js
-│ └── ...
-│
-└── ...
-
 ## API Documentation
 The backend provides the following API endpoints:
 
