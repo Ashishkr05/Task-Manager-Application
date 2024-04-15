@@ -9,11 +9,11 @@ This project is a simple task management application built using the MERN stack 
 - **Database:** MongoDB
 
 ## Setup Instructions
-1. Clone the repository to your local machine: `git clone https://github.com/your-username/task-management-app.git`
-2. Navigate to the project directory: `cd task-management-app`
+1. Clone the repository to your local machine: `git clone https://github.com/Ashishkr05/Task-Manager-Application/tree/master`
+2. Navigate to the project directory: `cd Task-Manager-Application`
 3. Install dependencies for both frontend and backend:
    - Frontend: `cd frontend && npm install`
-   - Backend: `cd backend && npm install`
+   - Backend: `cd api && npm install`
 4. Start the backend server: `cd backend && npm start`
 5. Start the frontend development server: `cd frontend && npm start`
 6. Open your browser and navigate to `http://localhost:3000` to view the application.
